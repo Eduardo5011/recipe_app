@@ -78,6 +78,13 @@ const DetailedWrapper = styled.div`
   ul {
     margin-top: 2rem;
   }
+
+  @media (max-width: 768px) {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const Button = styled.button`
@@ -87,9 +94,20 @@ const Button = styled.button`
   border: 2px solid black;
   margin-right: 2rem;
   font-weight: 600;
+
+  @media (max-width: 768px) {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
 `;
 
 const Info = styled.div`
   margin-left: 10rem;
+
+  @media (max-width: 768px) {
+    margin-left: 0;
+  }
 `;
 export default Recipe;

@@ -8,7 +8,7 @@ import {GiKnifeFork} from 'react-icons/gi';
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <BrowserRouter>
       <Nav>
         <GiKnifeFork />

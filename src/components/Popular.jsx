@@ -63,6 +63,14 @@ function Popular() {
 
 const Wrapper = styled.div`
     margin: 4rem 0rem;
+
+    @media (max-width: 768px) {
+        min-height: 20rem; // Adjusting height for mobile
+
+        p {
+            font-size: calc(0.8rem + 1.5vw); // Even more responsive for smaller screens
+        }
+    }
 `;
 
 const Card = styled.div`

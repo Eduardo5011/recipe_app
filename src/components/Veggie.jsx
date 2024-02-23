@@ -96,6 +96,11 @@ const Card = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
+
+        @media (max-width: 768px) {
+            font-size: 0.9rem;
+          }
+      
     }
 `;
 const Gradient = styled.div`

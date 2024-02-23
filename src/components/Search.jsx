@@ -44,12 +44,25 @@ const FormStyle = styled.form`
     outline: none;
     width: 100%;
   }
+
+  @media screen (max-width: 768px) {
+    input{
+      font-size: 1rem;
+      padding: 0.5rem 1.5rem;
+      width: 80%;
+    
+    }
+  }
   svg {
     position: absolute;
     top: 50%;
     left: 0%;
     transform: translate(100%, -50%);
     color: white;
+  }
+
+  @media only screen and (max-width: 768px) {
+    margin: 0rem 1rem; // Adjust margin for mobile
   }
 `;
 
